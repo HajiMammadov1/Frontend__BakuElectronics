@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main css-->
+    <link rel="stylesheet" href="./assets/styles/main.css">
     <title>Baku Electronics</title>
 </head>
 <body>
@@ -18,8 +20,57 @@
                         </a>
                     </div>
                 </div>
+                <div class="header__links">
+                    <div class="header__menu">
+                        <div class="header__search">
+                            <div class="search__wrap">
+                                <form action="">
+                                    <input type="text" class="search" placeholder="Axtarış">
+                                </form>
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                                <i class="fa-thin fa-circle-xmark" style="display: none;"></i>
+                                <div class="search__content">
+                                    <div class="search__text"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="header__nav">
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link"><b>Kampaniyalar</b></a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Mağazalar</a>
+                            </li>
+                            <li class="header__nav-item header__nav-item--drop">
+                                <button class="header__nav-link" data-modal="add-info">Digər <i class="fa-thin fa-chevron-down"></i></button>
+                            </li>
+                        </ul>
+                        <div class="header__phone">
+                            <a href="tel:143" class="header__phone-number">143
+                                <i class="fa-light fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__user">
+                        <ul class="header__user-list">
+                            <li class="header__user-item header__user-item_mob-hidden">
+                                <a href="" data-modal="login" class="header__user-link"><i class="icon-user"></i></a>
+                            </li>
+                            <li class="header__user-item header__user-item_mob-hidden">
+                                <a href="" class="header__user-link"><i class="fa-light fa-heart"></i></i><span class="count-box msfavorites-total" data-data-list="favorites" data-value="0">0</span></a>
+                            </li>
+                            <li class="header__user-item header__user-item_mob-hidden comparison ">
+                                <a href="" class="header__user-link"><i class="fa-light fa-scale-unbalanced"></i></i><span class="count-box comparison-total">0</span></a>
+                            </li>
+                            <li class="header__user-item" id="msMiniCart">
+                                <a href="https://www.bakuelectronics.az/cart.html" class="header__user-link"><i class="fa-light fa-cart-arrow-down"></i><span class="count-box ms2_total_count">0</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+    <script src="https://kit.fontawesome.com/33c2706f42.js" crossorigin="anonymous"></script>
 </body>
 </html>
