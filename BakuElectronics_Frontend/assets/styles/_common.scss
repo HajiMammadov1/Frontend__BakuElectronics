@@ -1,5 +1,10 @@
 *, :after, :before {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
 }
 
 /* body properties*/
@@ -12,6 +17,15 @@ body {
 /* common a tags */
 a {
     text-decoration: none;
+    transition: color .3s ease;
+    font-size: 14px;
+    color: #0076ff;
+}
+
+/* common image properties */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* common container properties */
