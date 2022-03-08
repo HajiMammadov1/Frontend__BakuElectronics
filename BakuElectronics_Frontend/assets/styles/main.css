@@ -793,4 +793,24 @@ img {
 .categories-section .categories .item-all:hover {
   background-image: none;
 }
+
+.brands-section {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.brands-section .brands-all_link {
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.brands-section .brands-all {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 16px;
+}
 /*# sourceMappingURL=main.css.map */
