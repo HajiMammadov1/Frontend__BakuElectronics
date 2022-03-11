@@ -37,19 +37,6 @@ img {
 }
 
 /* common container properties */
-.container {
-  width: 100%;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .header {
   background-color: #fff;
   position: fixed;
@@ -329,17 +316,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
 }
 
 .footer .footer__left {
@@ -472,6 +454,96 @@ img {
 .footer .footer__left .copyright a {
   display: block;
   margin: 0 0 10px;
+}
+
+.footer .footer__right {
+  margin-left: 0;
+  margin-right: -15px;
+  padding: 55px 10px 20px 4.7%;
+  background-color: #000;
+  width: 27.5%;
+  min-width: 370px;
+}
+
+.footer .footer__right a {
+  color: #fff;
+}
+
+.footer .footer__right .footer__up {
+  padding-bottom: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.footer .footer__right .footer__down {
+  height: 90px;
+}
+
+.footer .footer__right .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  padding-right: 15px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.footer .footer-infocenter {
+  margin-bottom: 50px;
+}
+
+.footer .info-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.footer .footer-phone__number {
+  margin-bottom: 10px;
+}
+
+.footer .phone-link {
+  font-size: 36px;
+  padding-left: 35px;
+  position: relative;
+}
+
+.footer .fa-phone-alt {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  font-size: 25px;
+}
+
+.footer .mail-link {
+  font-size: 18px;
+}
+
+.footer .developer span {
+  display: block;
+}
+
+.footer .developer .dev-name {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .welcome-section {
