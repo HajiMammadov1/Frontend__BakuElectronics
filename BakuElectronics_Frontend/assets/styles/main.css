@@ -551,8 +551,55 @@ img {
   display: block;
 }
 
+.welcome-section .side__menu {
+  position: relative;
+  width: 25vw;
+  display: inline-block;
+}
+
+.welcome-section .side__nav {
+  height: 100%;
+  padding: 130px 0 20px 80px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.welcome-section .side__nav-list {
+  display: inline-block;
+  padding-top: 30px !important;
+}
+
+.welcome-section .side__nav-item {
+  padding-bottom: 15px;
+}
+
+.welcome-section .side__nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #020303;
+  display: block;
+  position: relative;
+}
+
+.welcome-section .side__nav-link:hover {
+  color: #4da0ff;
+}
+
+.welcome-section .side__nav-link:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f054";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -80px;
+  font-size: 14px;
+  margin: auto;
+  height: 16px;
+}
+
 .main__welcome {
-  margin-top: -106px;
+  margin-top: -468px;
   margin-left: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
