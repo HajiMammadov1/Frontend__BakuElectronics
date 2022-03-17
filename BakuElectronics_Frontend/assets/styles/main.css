@@ -111,8 +111,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 450px;
-  margin-left: 152px;
+  width: 500px;
+  margin-left: 102px;
 }
 
 .header .search__wrap {
@@ -280,14 +280,11 @@ img {
 }
 
 @media screen and (max-width: 1366px) {
-  .header__nav {
-    display: none;
-  }
   .header__phone-number {
-    margin-left: 50px;
+    margin-left: -12px;
   }
   .header__search {
-    margin-left: 170px;
+    margin-left: 160px;
   }
 }
 
@@ -599,7 +596,7 @@ img {
 }
 
 .main__welcome {
-  margin-top: -468px;
+  margin-top: -500px;
   margin-left: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -780,9 +777,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   margin: 0 -10px;
 }

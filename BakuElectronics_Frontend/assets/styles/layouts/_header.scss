@@ -54,8 +54,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 450px;
-    margin-left: 152px;
+    width: 500px;
+    margin-left: 102px;
   }
 
   .search__wrap {
@@ -203,16 +203,13 @@
 }
 
 @media screen and (max-width: 1366px) {
-  .header__nav {
-    display: none;
-  }
 
   .header__phone-number {
-    margin-left: 50px;
+    margin-left: -12px;
   }
 
   .header__search {
-    margin-left: 170px;
+    margin-left: 160px;
   }
 }
 

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon"type="image/png" href="./assets/images/logo_mob.svg">
+    <!--font Awesome css-->
+    <link rel="stylesheet" href="./assets/font-awesome/css/all.min.css">
+    <!--main css-->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <!--custom css-->
+    <!-- <link rel="stylesheet" href="./assets/styles/custom.css"> -->
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <title>BakuElectronics – elektronika, məişət texnika, ev üçün əşyalar</title>
+</head>
+<body>
+
+    <!--header starts-->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <!--navbar brand starts-->
+                <div class="header__logo">
+                    <div class="logo">
+                        <a href="" class="logo__link">
+                            <img src="./assets/images/logo.svg" alt="logo" class="logo__pic logo__pic__desktop">
+                            <img src="./assets/images/logo_mob.svg" alt="logo" class="logo__pic logo__pic__mobile" style="display: none;">
+                        </a>
+                    </div>
+                </div>
+                <!--navbar brand ends-->
+                <div class="header__links">
+                    <!--menu starts-->
+                    <div class="header__menu">
+                        <div class="header__search">
+                            <div class="search__wrap">
+                                <form action="">
+                                    <input type="text" class="search" placeholder="Axtarış">
+                                </form>
+                                <i class="fas fa-search"></i>
+                                <i class="fas fa-times" style="display: none;"></i></i>
+                                <div class="search__content">
+                                    <div class="search__text"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="header__nav">
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link"><b>Kampaniyalar</b></a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Mağazalar</a>
+                            </li>
+                            <li class="header__nav-item header__nav-item--drop">
+                                <button class="header__nav-link" data-modal="add-info">Digər  <i class="fas fa-chevron-down"></i></button>
+                            </li>
+                        </ul>
+                        <div class="header__phone">
+                            <a href="tel:143" class="header__phone-number">143
+                                <i class="fas fa-phone-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__user">
+                        <ul class="header__user-list">
+                            <li class="header__user-item header__user-item_mob-hidden">
+                                <a href="" data-modal="login" class="header__user-link"><i class="fas fa-user"></i></i></a>
+                            </li>
+                            <li class="header__user-item header__user-item_mob-hidden">
+                                <a href="" class="header__user-link"><i class="fas fa-heart"></i><span class="count-box msfavorites-total" data-data-list="favorites" data-value="0">0</span></a>
+                            </li>
+                            <li class="header__user-item header__user-item_mob-hidden comparison ">
+                                <a href="" class="header__user-link"><i class="fas fa-balance-scale-left"></i><span class="count-box comparison-total">0</span></a>
+                            </li>
+                            <li class="header__user-item" id="msMiniCart">
+                                <a href="" class="header__user-link"><i class="fas fa-shopping-cart"></i><span class="count-box ms2_total_count">0</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--menu ends-->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header ends-->
+
+    <!--main section starts-->
+    <main>
+        <div class="container">
+            <div class="cart-holder">
+                <section class="cart-wrap">
+                    <div id="cart" class="cart-content">
+                        <div class="order-empty">
+                            Səbətiniz boşdur
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!--main section ends-->
+
+    <!--footer starts-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__box">
+                <div class="footer__left">
+                    <div class="col">
+                        <div class="footer__up">
+                            <h3 class="footer-title">Məlumat</h3>
+                            <ul class="footer-menu">
+                                <li class="menu-item"><a href="">Kampaniyalar</a></li>
+                                <li class="menu-item"><a href="">Bonus - Müştəri kartı</a></li>
+                                <li class="menu-item"><a href="">Brendlər</a></li>
+                                <li class="menu-item"><a href="">Bloq</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__down">
+                            <h3 class="footer-title">Ödəniş:</h3>
+                            <ul class="payment">
+                                <li class="payment-img"><img src="./assets/images/visa-pay-logo.svg" alt=""></li>
+                                <li class="payment-img"><img src="./assets/images/mastercard.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer__up">
+                            <h3 class="footer-title">Şirkət</h3>
+                            <ul class="footer-menu">
+                                <li class="menu-item"><a href="">Şirkət haqqında</a></li>
+                                <li class="menu-item"><a href="">Mağazalar</a></li>
+                                <li class="menu-item"><a href="">Vakansiyalar</a></li>
+                                <li class="menu-item"><a href="">Korporativ satışlar</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__down">
+                            <h3 class="footer-title">Bizə qoşulun:</h3>
+                            <ul class="social">
+                                <li class="social-icon"><a href="" class="social-link facebook-link" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icon"><a href="" class="social-link instagram-link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icon"><a href="" class="social-link youtube-link" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer__up">
+                            <h3 class="footer-title">Alıcılara</h3>
+                            <ul class="footer-menu">
+                                <li class="menu-item"><a href="">Onlayn Ödəmə Sistemi</a></li>
+                                <li class="menu-item"><a href="">Çatdırılma və ödəniş</a></li>
+                                <li class="menu-item"><a href="">Servis mərkəzləri</a></li>
+                                <li class="menu-item"><a href="">Nisyə alış</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__down">
+                            <div class="copyright">
+                                <a href="">© 2018 - 2022 bakuelectronics.az</a>
+                                <a href="">Məxfilik siyasəti</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <div class="col">
+                        <div class="footer__up">
+                            <div class="footer-infocenter">
+                                <h2 class="info-title">Məlumat mərkəzi</h2>
+                                <time class="info-time">9:00 - 20:00 (hər gün)</time>
+                            </div>
+                            <div class="footer-phone">
+                                <div class="footer-phone__number">
+                                    <a href="tel:143" class="phone-link">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <strong>143</strong>
+                                    </a>
+                                </div>
+                                <a href="mailto:info@bakuelectronics.az" class="mail-link">info@bakuelectronics.az</a>
+                            </div>
+                        </div>
+                        <div class="footer__down developer">
+                            <span>Saytın hazırlanması</span>
+                            <span><a href="" target="_blank" class="dev-name">Турум-бурум</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer ends-->
+
+    <script src="https://kit.fontawesome.com/33c2706f42.js" crossorigin="anonymous"></script>
+</body>
+</html>
