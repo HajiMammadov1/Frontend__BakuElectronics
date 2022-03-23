@@ -2,11 +2,6 @@
   margin-top: -20px;
   display: block;
 
-  .container_flex {
-    //display: flex;
-    //flex-flow: nowrap;
-  }
-
   .side__menu {
     position: relative;
     width: 25vw;
@@ -475,3 +470,30 @@
     font-size: 16px;
   }
 }
+
+.dropdown__menu {
+   display: none;
+
+  &-list {
+    background-color: #efe8de;
+    padding: 20px 0 20px 50px;
+    height: 100%;
+  }
+
+  .side__nav-item {
+    padding-bottom: 15px;
+    display: block;
+  }
+}
+
+.side__nav-item-parent:hover .dropdown__menu {
+  position: absolute;
+  height: 100%;
+  width: 25vw;
+  left: 100%;
+  top: 140px;
+  transform: translate(12%);
+  z-index: 100;
+ }
+
+
