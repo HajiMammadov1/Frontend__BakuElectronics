@@ -140,6 +140,8 @@ img {
   position: absolute;
   top: 0;
   right: 0;
+  width: 450px;
+  margin-left: 94px;
 }
 
 .header .search {
@@ -184,6 +186,9 @@ img {
 }
 
 .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -417,7 +422,7 @@ img {
     line-height: 31px;
   }
   .header__user-item {
-    padding: 0 5px;
+    padding: 0 11px;
   }
 }
 

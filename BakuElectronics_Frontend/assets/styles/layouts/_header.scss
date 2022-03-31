@@ -68,6 +68,8 @@
     position: absolute;
     top: 0;
     right: 0;
+    width: 450px;
+    margin-left: 94px;
   }
 
   .search {
@@ -107,6 +109,7 @@
   }
 
   &__nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 275px;
@@ -210,6 +213,12 @@
     }
   }
 }
+
+// @media screen and (min-width: 1600px) {
+//   .header__user-item {
+//     padding: 0 11px;
+//   }
+// }
 
 @media screen and (max-width: 1366px) {
   .header__phone-number {
@@ -316,6 +325,6 @@
   }
 
   .header__user-item {
-    padding: 0 5px;
+    padding: 0 11px;
   }
 }
